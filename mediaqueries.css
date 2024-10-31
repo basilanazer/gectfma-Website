@@ -1,0 +1,31 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .features-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        display: none;
+    }
+
+    .menu-toggle {
+        margin-right: 20px;
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .download-btn {
+        font-size: 0.8em;
+    }
+}

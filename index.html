@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GECTFMA App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id = "desktop-nav">
+        <div class="logo">
+            <h3>GECTFMA</h3>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#guide">Guide</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+        <div class="logo">
+            <h3>GECTFMA</h3>
+        </div>
+        <div class = "hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <!-- 3 lines for hamburger icon -->
+                <span></span>
+                <span></span>
+                <span></span>                    
+            </div>
+            <div class="menu-links">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#guide">Guide</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="home-content">
+            <h1>Welcome to GECTFMA App</h1>
+            <p>Effortlessly manage and connect with your PTA through our app.</p>
+            <a href="assets/app-release.apk" download="app-release.apk">
+                <button class="download-btn">Download Now</button>
+            </a>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="features-content">
+            <div class="feature">
+                <h3>Feature 1</h3>
+                <p>Description of feature 1.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 2</h3>
+                <p>Description of feature 2.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 3</h3>
+                <p>Description of feature 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="guide">
+        <h2>How It Works</h2>
+        <div class="guide-content">
+            <p>Step 1: Description of step 1.</p>
+            <p>Step 2: Description of step 2.</p>
+            <p>Step 3: Description of step 3.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About the App</h2>
+        <p>GECTFMA is an app designed to streamline PTA communications and management.</p>
+    </section>
+
+    <section id="support">
+        <h2>Support</h2>
+        <p>For any inquiries or support, please contact us at <a href="mailto:support@gectfma.com">support@gectfma.com</a>.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
